@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lisa Grote</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/pages.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  
+  <script type="text/javascript" src="unitegallery/js/unitegallery.min.js"></script> 
+  <link rel="stylesheet" href="unitegallery/css/unite-gallery.css" type="text/css" /> 
+  
+  <script type="text/javascript" src="unitegallery/themes/tiles/ug-theme-tiles.js"></script>
+</head>
+<body>
+  <article>
+    <header>
+      <h1>Lisa Grote</h1>
+      <h4>Schauspielerin</h4>
+      <menu>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="resume.html">Vita</a></li>
+          <li class="active"><a href="photos.html">Fotos</a></li>
+          <li><a href="reel.html">Show Reel</a></li>
+          <li><a href="audio.html">Audio</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </menu>
+    </header>
+    <section class="photos">
+      <div id="gallery" style="display:none;">
+        <img alt="" src="img/photos/2.jpg" data-image="img/photos/2.jpg">        
+        <img alt="" src="img/photos/5.jpg" data-image="img/photos/5.jpg">
+        <img alt="" src="img/photos/3.jpg" data-image="img/photos/3.jpg">
+        <img alt="" src="img/photos/4.jpg" data-image="img/photos/4.jpg">
+        <img alt="" src="img/photos/6.jpg" data-image="img/photos/6.jpg">
+      </div>
+    </section>
+    <footer>
+      &copy;2018 Lisa Grote
+    </footer>
+  </article>
+  </div>
+
+  <script type="text/javascript"> 
+    $(document).ready(function() { 
+      $('#gallery').unitegallery({
+        tiles_type: 'nested',
+        gallery_theme: 'tiles'
+			}); 
+    }); 
+  </script>
+</body>
+</html>
