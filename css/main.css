@@ -30,6 +30,8 @@ article {
 
   menu ul li {
     display: block !important;
+    margin: 0 !important;
+    padding: 10px !important;
   }
 }
 
