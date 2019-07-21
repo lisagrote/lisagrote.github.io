@@ -1,7 +1,6 @@
-
 /* Home */
 section.home #mainPicture {
-  width: 300px;
+  width: 800px;
 }
 
 /* Resume */
@@ -42,9 +41,9 @@ section.resume table td {
   padding: 5px 0;
 }
 
-
 /* Photos */
-section.photos {}
+section.photos {
+}
 
 /* Reel */
 
