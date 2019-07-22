@@ -1,6 +1,7 @@
 /* Home */
 section.home #mainPicture {
-  width: 800px;
+  width: 90%;
+  max-width: 800px;
 }
 
 /* Resume */
